@@ -1,0 +1,17 @@
+a:hover
+{
+  transform: scale(110%);
+}
+a
+{
+  transition: .3s;
+}
+.btn i {
+  padding-right: 10px;
+}
+.btn {
+  padding: 15px 30px;
+  border: 1px solid #B25A59;
+  background: #B25A59;
+  border-radius: 50px;
+}

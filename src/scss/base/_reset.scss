@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+@media (max-width: 1416px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .head__big img
+  {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 1237px) {
+  .container
+  {
+    max-width: 1000px;
+  }
+  .nav
+  {
+    ul
+    {
+      gap: 25px !important;
+    }
+  }
+  .head
+  {
+    &__btn
+    {
+      flex-wrap: wrap;
+    }
+  }
+}
+@media (max-width: 1019px) {
+  .container
+  {
+    max-width: 800px;
+  }
+  .nav{
+    .btn
+    {
+      padding: 0;
+      i
+      {
+        padding: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      span
+      {
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 832px) {
+  .container
+  {
+    max-width: 600px;
+  }
+  .nav
+  {
+    ul
+    {
+      gap: 25px !important;
+      a
+      {
+        font-size: 18px !important;
+      }
+    }
+  }
+  .head__big
+  {
+    img
+    {
+      display: none !important;
+    }
+  }
+  .head
+  {
+    h1
+    {
+      font-size: 40px !important;
+      line-height: 50px !important;
+    }
+    p, a
+    {
+      font-size: 18px !important;
+    }
+  }
+}
+@media (max-width: 632px)
+{
+  .container
+  {
+    max-width: 400px;
+  }
+  .nav
+  {
+    ul{
+      flex-wrap: wrap;
+    }
+    img
+    {
+      width: 100px;
+    }
+    a
+    {
+      font-size: 15px !important;
+    }
+    .btn i
+    {
+      padding: 5px;
+    }
+  }
+  .head__btn
+  {
+    a, p
+    {
+      font-size: 15px !important;
+      padding: 5px 10px;
+    }
+    span
+    {
+      width: 40px !important;
+      height: 40px !important;
+    }
+  }
+}
+@media (max-width: 415px)
+{
+  .container
+  {
+    max-width: 300px;
+  }
+  .nav
+  {
+    img
+    {
+      width: 100px;
+    }
+    ul
+    {
+      flex-wrap: wrap;
+    }
+    a
+    {
+      font-size: 12px !important;
+    }
+  }
+}

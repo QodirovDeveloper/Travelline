@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+nav
+{
+  .nav
+  {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 2%;
+    li a
+    {
+      color: #252641;
+    }
+    a
+    {
+      color: white;
+      font-family: Poppins;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 33px;
+      letter-spacing: 2%;
+    }
+  }
+}
+.head
+{
+  h1
+  {
+    span
+    {
+      color: #7F2736;
+    }
+    margin-top: 100px;
+    font-family: Nunito Sans;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 73.66px;
+    letter-spacing: 0%;
+    max-width: 681px;
+    color: #2C2D32;
+  }
+  p
+  {
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38.4px;
+    letter-spacing: 0%;
+    color: #464646;
+    max-width: 523px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  &__btn
+  {
+    display: flex;
+    align-items: center;
+
+    column-gap: 49px;
+    a
+    {
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 36px;
+      letter-spacing: 0%;
+      color: white;
+    }
+    p
+    {
+      display: flex;
+      align-items: center;
+
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      letter-spacing: 0%;
+      color: #252641;
+      span
+      {
+        margin-right: 20px;
+        width: 62px;
+        height: 62px;
+        background: #fff;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+      }
+    }
+  }
+}
