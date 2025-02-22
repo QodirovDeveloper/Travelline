@@ -111,6 +111,36 @@
 }
 @media (max-width: 632px)
 {
+  main
+  {
+    .main__top
+    {
+      h2
+      {
+        line-height: 43px !important;
+      }
+      p
+      {
+        font-size: 18px !important;
+        line-height: 33px !important;
+      }
+    }
+    .main__center
+    {
+      p
+      {
+        font-size: 18px !important;
+      }
+      img
+      {
+        max-width: 300px;
+      }
+      i
+      {
+        display: none;
+      }
+    }
+  }
   .container
   {
     max-width: 400px;
