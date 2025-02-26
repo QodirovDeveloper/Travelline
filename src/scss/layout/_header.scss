@@ -8,6 +8,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    img{
+      transition: .3s;
+    }
+    img:hover
+    {
+      transform: scale(90%);
+    }
   }
 }
 
@@ -31,10 +38,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
   }
 }
 .footer {
+  margin-top: 80px;
+
   h2 {
     font-family: Poppins;
     font-weight: 600;

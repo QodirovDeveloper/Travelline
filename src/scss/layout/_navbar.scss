@@ -9,6 +9,15 @@ nav {
       align-items: center;
       justify-content: space-between;
       gap: 75px;
+      li:hover{
+        transform: scale(120%) !important;
+      }
+      li a:hover{
+          color: #B25A59;
+      }
+      li{
+        transition: .3s;
+      }
     }
   }
 }
