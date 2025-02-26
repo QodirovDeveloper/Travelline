@@ -108,6 +108,24 @@
     }
   }
 }
+@media (max-width: 684px)
+{
+  .footer__img-1
+  {
+    img
+    {
+      max-width: 310px !important;
+    }
+    p
+    {
+      font-size: 23px !important;
+    }
+    a
+    {
+      font-size: 14px !important;
+    }
+  }
+}
 @media (max-width: 632px)
 {
   main
