@@ -4,18 +4,22 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     ul {
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 75px;
-      li:hover{
+
+      li:hover {
         transform: scale(120%) !important;
       }
-      li a:hover{
-          color: #B25A59;
+
+      li a:hover {
+        color: #B25A59;
       }
-      li{
+
+      li {
         transition: .3s;
       }
     }

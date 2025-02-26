@@ -8,11 +8,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    img{
+
+    img {
       transition: .3s;
     }
-    img:hover
-    {
+
+    img:hover {
       transform: scale(90%);
     }
   }
@@ -40,6 +41,7 @@ main {
     align-items: center;
   }
 }
+
 .footer {
   margin-top: 80px;
 
@@ -51,10 +53,12 @@ main {
     letter-spacing: 0%;
     text-align: center;
     color: #2C2D32;
+
     span {
       color: #7F2736;
     }
   }
+
   h3 {
     font-family: Poppins;
     font-weight: 400;
